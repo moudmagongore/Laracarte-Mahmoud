@@ -15,7 +15,7 @@
     		</div>
     	</div>
 
-    	<p>Feel free to help to improve the <a href="https://github.com/moudmagongore/laracarte-mahmoud">source code.</a></p>
+    	<p>Feel free to help to improve the <a href="https://github.com/moudmagongore/Laracarte-Mahmoud">source code.</a></p>
 
     	<hr>
 

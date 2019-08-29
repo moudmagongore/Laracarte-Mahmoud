@@ -1,4 +1,4 @@
-<footer class="text-center">
+<footer class="text-center py-5">
 	<p>
 		&copy; {{date('Y')}} &middot; {{config('app.name')}} <a href="https://twitter.com/etsmo">@etsmo</a> &dash; A <a href="https://Laramap.com">Laramap</a> clone app.
 	</p>

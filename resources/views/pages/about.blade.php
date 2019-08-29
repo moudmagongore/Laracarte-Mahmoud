@@ -1,7 +1,7 @@
 @extends('layouts.default', ['title' => 'About'])
 
 @section('container')
-    <div class="container" style="margin-top: 4em; margin-bottom: 4em;">
+    <div class="container" {{-- style="margin-top: 4em; margin-bottom: 4em;" --}}>
     	<h2>What is {{config('app.name')}}?</h2>
     	<p>
     		{{config('app.name')}} is a clone app of <a href="https://Laramap.com" target="_blank">Laramap.com.</a>

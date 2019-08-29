@@ -1,4 +1,4 @@
- <nav class="navbar navbar-expand-md navbar-dark static-top bg-dark">
+ <nav class="navbar navbar-expand-md fixed-top navbar-dark static-top bg-dark">
   {{-- <nav class="navbar navbar-expand-lg navbar-light bg-light"> --}}
 
   <div class="container" id="navbarsExampleDefault">
@@ -16,14 +16,15 @@
       <li class="nav-item ">
         <a class="nav-link" href="#">Artisans</a>
       </li>
+
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="dropdown01" role="Planet" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Planet</a>
-        <div class="dropdown-menu" aria-labelledby="dropdown01">
+        <a class="nav-link dropdown-toggle" href="#" id="planetDropdown" role="Planet" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Planet</a>
+        <div class="dropdown-menu" aria-labelledby="planetDropdown">
           <a class="dropdown-item" href="#">Laravel.com</a>
           <a class="dropdown-item" href="#">Laravel.io</a>
           <a class="dropdown-item" href="#">Larjobs</a>
-           <a class="dropdown-item" href="#">LaraNews</a>
-            <a class="dropdown-item" href="#">Larachart</a>
+          <a class="dropdown-item" href="#">LaraNews</a>
+          <a class="dropdown-item" href="#">Larachart</a>
         </div>
       </li>
 

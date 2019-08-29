@@ -13,13 +13,11 @@ Route::get('/', [
 	'as' => 'root_path',
 	'uses' => 'PageController@home'
 ]);
-*/
-use App\Mail\ContactMessageCreated;
+	//oubien
+/*Route::view('/', 'pages.home')->name('root_path');*/
 
-Route::get('/test-email', function(){
-	
-	return new ContactMessageCreated('Diallo Mahmoud', 'moudma@gmail.com', 'je suis contend pour laracarte');
-});
+
+use App\Mail\ContactMessageCreated;
 
 Route::get('/', 'PageController@home')->name('root_path');
 

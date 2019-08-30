@@ -27,3 +27,7 @@ Route::get('/contact', 'ContactsController@create')->name('contact_path');
 
 Route::post('/contact', 'ContactsController@store')->name('contact_path');
 
+
+Auth::routes(['verify' => true]);
+
+/*Route::get('/home', 'HomeController@index')->name('home');*/
